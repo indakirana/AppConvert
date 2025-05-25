@@ -1,10 +1,18 @@
+using System.Linq;
 using System.Diagnostics;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using AppConvert.Models;
 using Syncfusion.Pdf;
 using Syncfusion.Pdf.Graphics;
 using Syncfusion.XlsIO;
 using Syncfusion.XlsIORenderer;
+using Aspose.Pdf;
+using Aspose.Pdf.Text;
+using System.Data;
+using System.IO;
+
 
 namespace AppConvert.Controllers;
 
@@ -17,9 +25,38 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    Db dbop = new Db();
+
     public IActionResult Index()
     {
-        return View();
+        var document = new Document
+        {
+            PageInfo = new PageInfo { Margin = new MarginInfo(28, 28, 28, 40) }
+        };
+
+        var pdfpage = document.Pages.Add();
+
+        Table table = new Table
+        {
+            ColumnWidths = "25% 25% 25% 25%",
+            DefaultCellPadding = new MarginInfo(10, 5, 10, 5),
+            Border = new BorderInfo(BorderSide.All, .5f, Color.Black),
+            DefaultCellBorder = new BorderInfo(BorderSide.All, .2f, Color.Black),
+
+        };
+
+        DataTable dt = dbop.Getrecord();
+        table.ImportDataTable(dt, true, 0, 0);
+        document.Pages[1].Paragraphs.Add(table);
+
+        using (var streamout = new MemoryStream())
+        {
+            document.Save(streamout);
+            return new FileContentResult(streamout.ToArray(), "application/pdf")
+            {
+                FileDownloadName = "table_customer.pdf"
+            };
+        };
     }
 
     public IActionResult ConvertExcelToPdf()

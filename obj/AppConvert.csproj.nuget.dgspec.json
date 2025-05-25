@@ -14,15 +14,19 @@
         "outputPath": "H:\\Project\\AppConvert\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\hanaf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\hanaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://nuget.org/api/v2/": {}
         },
         "frameworks": {
@@ -47,9 +51,21 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Aspose.PDF": {
+              "target": "Package",
+              "version": "[25.5.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.0-preview1.25120.4, )"
+            },
             "Syncfusion.XlsIORenderer.Net.Core": {
               "target": "Package",
               "version": "[29.2.5, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
             }
           },
           "imports": [
