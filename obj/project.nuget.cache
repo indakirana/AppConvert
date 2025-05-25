@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nohu/w8A0ao=",
+  "success": true,
+  "projectFilePath": "H:\\Project\\AppConvert\\AppConvert.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hanaf\\.nuget\\packages\\bitmiracle.libtiff.net\\2.4.649\\bitmiracle.libtiff.net.2.4.649.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\harfbuzzsharp\\8.3.0.1\\harfbuzzsharp.8.3.0.1.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\8.3.0.1\\harfbuzzsharp.nativeassets.macos.8.3.0.1.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\8.3.0.1\\harfbuzzsharp.nativeassets.win32.8.3.0.1.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\skiasharp\\3.116.1\\skiasharp.3.116.1.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\skiasharp.harfbuzz\\3.116.1\\skiasharp.harfbuzz.3.116.1.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\skiasharp.nativeassets.macos\\3.116.1\\skiasharp.nativeassets.macos.3.116.1.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\skiasharp.nativeassets.win32\\3.116.1\\skiasharp.nativeassets.win32.3.116.1.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\syncfusion.compression.net.core\\29.2.5\\syncfusion.compression.net.core.29.2.5.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\syncfusion.licensing\\29.2.5\\syncfusion.licensing.29.2.5.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\syncfusion.metafilerenderer.net\\29.2.5\\syncfusion.metafilerenderer.net.29.2.5.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\syncfusion.pdf.imaging.net.core\\29.2.5\\syncfusion.pdf.imaging.net.core.29.2.5.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\syncfusion.pdf.net.core\\29.2.5\\syncfusion.pdf.net.core.29.2.5.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\syncfusion.skiasharphelper.net.core\\29.2.5\\syncfusion.skiasharphelper.net.core.29.2.5.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\syncfusion.xlsio.net.core\\29.2.5\\syncfusion.xlsio.net.core.29.2.5.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\syncfusion.xlsiorenderer.net.core\\29.2.5\\syncfusion.xlsiorenderer.net.core.29.2.5.nupkg.sha512",
+    "C:\\Users\\hanaf\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
